@@ -1,0 +1,71 @@
+/* Such Donate, Much Appreciate */
+/* DOGE : DCxTFgFnwvYWbi7AGz3dXq9jA57aWhY36C */
+/* Bitcoin : 12DWPLaCKEEPfk6naVD6aqavMmV5ANUWVc */
+/* Ethereum : 0x2751164F8E722738047d73c3565CF45a827e4777 */
+
+/* CSS Modifiers */
+/* Black background */
+body,
+#container,
+.section-sidebar,
+.post-afterbar-a.in-post-top,
+.CS3,
+.section-nav
+{
+    background-color: #000 !important;
+}
+
+/* White text */
+body,
+section#list-view-2 h1,
+.section-sidebar section .nav a,
+section.block-feature-cover a,
+section#individual-post header h1,
+.post-comment,
+.CS3,
+.CS3 .comment-entry .payload .username,
+section.tag-header h2,
+.section-nav .width-limit>ul a.selected,
+.CS3 .tab-bar ul.tab li.active a,
+section#settings h2,
+.field label,
+textarea,
+input[type="text"]
+{
+    color: #fff !important;
+}
+
+/* Links */
+.CS3 .collapsed-comment
+{
+    color: #09f !important;
+}
+/* Links hovered */
+.CS3 .collapsed-comment:hover,
+section.block-feature-cover a:hover
+{
+    color: #33adff !important;
+}
+
+/* Tags */
+.featured-tag a
+{
+    background-color: #777 !important;
+}
+/* Tags hovered */
+.featured-tag a:hover
+{
+    background-color: #999 !important;
+}
+/* Sidebar hover */
+.section-sidebar section .nav a:hover
+{
+    background-color: rgba(255,255,255,.05) !important;
+}
+
+/* Misc */
+section#list-view-2 article{border-top: 1px solid #ccc !important; }
+.section-nav{box-shadow: inset 0 -1px 0 rgba(255,255,255,.1) !important;}
+.section-nav .width-limit > ul a.selected{border-bottom: 4px solid #fff !important;}
+.section-nav .width-limit>ul a:hover{color: #777 !important;}
+textarea, .notice-message, .blank-state{background-color: #333 !important;}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "9GAG Night Mode",
+  "version": "0.1.0",
+  "description": "9GAG Night Mode for PC Master Race",
+
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://9gag.com/*"]
+  }]
+
+}
